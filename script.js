@@ -24,7 +24,7 @@
 //       Swal.fire({
 //         icon: "error",
 //         title: "ERROR",
-//         text: "NIK wajib diisi!",
+//         text: "Tempat Lahir Wajib Diisi!",
 //       });
 //       return false;
 //     }
@@ -34,7 +34,7 @@
 //       Swal.fire({
 //         icon: "error",
 //         title: "ERROR",
-//         text: "NIK wajib diisi!",
+//         text: "Tanggal Lahir wajib diisi!",
 //       });
 //       return false;
 //     }
@@ -54,7 +54,7 @@
 //       Swal.fire({
 //         icon: "error",
 //         title: "ERROR",
-//         text: "NIK wajib diisi!",
+//         text: "Nama Ayah wajib diisi!",
 //       });
 //       return false;
 //     }
@@ -74,7 +74,7 @@
 //       Swal.fire({
 //         icon: "error",
 //         title: "ERROR",
-//         text: "NIK wajib diisi!",
+//         text: "Nama Ibu wajib diisi!",
 //       });
 //       return false;
 //     }
@@ -94,7 +94,7 @@
 //       Swal.fire({
 //         icon: "error",
 //         title: "ERROR",
-//         text: "NIK wajib diisi!",
+//         text: "Nomor Telepon wajib diisi!",
 //       });
 //       return false;
 //     }
@@ -104,7 +104,7 @@
 //       Swal.fire({
 //         icon: "error",
 //         title: "ERROR",
-//         text: "NIK wajib diisi!",
+//         text: "Nama Desa wajib diisi!",
 //       });
 //       return false;
 //     }
@@ -114,7 +114,7 @@
 //       Swal.fire({
 //         icon: "error",
 //         title: "ERROR",
-//         text: "NIK wajib diisi!",
+//         text: "RT wajib diisi!",
 //       });
 //       return false;
 //     }
@@ -124,7 +124,7 @@
 //       Swal.fire({
 //         icon: "error",
 //         title: "ERROR",
-//         text: "NIK wajib diisi!",
+//         text: "RW wajib diisi!",
 //       });
 //       return false;
 //     }
@@ -134,7 +134,7 @@
 //       Swal.fire({
 //         icon: "error",
 //         title: "ERROR",
-//         text: "NIK wajib diisi!",
+//         text: "Kecamatan wajib diisi!",
 //       });
 //       return false;
 //     }
@@ -144,7 +144,7 @@
 //       Swal.fire({
 //         icon: "error",
 //         title: "ERROR",
-//         text: "NIK wajib diisi!",
+//         text: "Kabupaten wajib diisi!",
 //       });
 //       return false;
 //     }
