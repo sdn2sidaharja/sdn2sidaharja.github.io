@@ -287,11 +287,11 @@
             <div class="row g-3">
               <div class="col-sm-6">
                 <label for="inputRt" class="form-label">RT</label><small class="text-danger">*</small>
-                <input name="RT" type="tel" class="form-control" id="inputRt" required title="Mohon masukkan dengan tepat" />
+                <input name="RT" type="tel" class="form-control" id="inputRt" pattern="[0-9]{1,}" required title="Mohon masukkan dengan tepat" />
               </div>
               <div class="col-sm-6">
                 <label for="inputRw" class="form-label">RW</label><small class="text-danger">*</small>
-                <input name="RW" type="tel" class="form-control" id="inputRw" required title="Mohon masukkan dengan tepat" />
+                <input name="RW" type="tel" class="form-control" id="inputRw" pattern="[0-9]{1,}"required title="Mohon masukkan dengan tepat" />
               </div>
             </div>
           </div>
@@ -362,11 +362,11 @@
           <div class="col-4">
             <div class="row g-3">
               <div class="col-sm-6">
-                <label for="inputJarakTempuh" class="form-label">Jarak Tempuh Ke Sekolah</label><small class="text-danger">*</small>
+                <label for="inputJarakTempuh" class="form-label">Jarak Ke Sekolah</label><small class="text-danger">*(KM)</small>
                 <input name="Jarak Tempuh" type="tel" class="form-control" id="inputJarakTempuh" required title="Mohon masukkan dengan tepat" />
               </div>
               <div class="col-sm-6">
-                <label for="inputSaudara" class="form-label">Jumlah Saudara Kandung</label><small class="text-danger">*</small>
+                <label for="inputSaudara" class="form-label">Jumlah Saudara Kandung</label><small class="text-danger"></small>
                 <input name="Saudara" type="tel" class="form-control" id="inputSaudara" required title="Mohon masukkan dengan tepat" />
               </div>
             </div>
