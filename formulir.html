@@ -93,7 +93,54 @@
               <option>Perempuan</option>
             </select>
           </div>
-         
+          <div class="col-md-4">
+            <label for="inputKebutuhanKhusus" class="form-label">Kebutuhan Khusus</label><small class="text-danger">*</small>
+            <select name="Kebutuhan Khusus" id="inputKebutuhanKhusus" class="form-select" required>
+              <option>Tidak Ada</option>
+              <option>Ada</option>
+              
+            </select>
+          </div><div class="col-md-4">
+            <label for="inputAgama" class="form-label">Agama</label><small class="text-danger">*</small>
+            <select name="Agama" id="inputAgama" class="form-select" required>
+              <option>Islam</option>
+              <option>Protestan</option>
+              <option>Katolik</option>
+              <option>Hindu</option>
+              <option>Budha</option>
+              <option>Khonghucu</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="inputNomorNISN" class="form-label">Input NISN</label><small class="text-danger">* <i>(Tidak Wajib Diisi)</small>
+            <input name="NISN" type="tel" class="form-control" id="inputNomorNISN"  />
+            <small><i> *) diisikan data dari jenjang sebelumnya</i></small>
+          </div>
+          <div class="col-12">
+            <label for="inputSekolahAsal" class="form-label">Sekolah Asal</label><small class="text-danger">* <i>(Tidak Wajib Diisi)</i></small>
+            <input name="Sekolah Asal" type="text" class="form-control" id="inputSekolahAsal" />
+          </div>
+          <div class="col-md-6">
+            <label for="inputNPSN" class="form-label">NPSN Sekolah Asal</label><small class="text-danger">*<i>(Tidak Wajib Diisi)</i></small>
+            <input name="NPSN" type="tel" class="form-control" id="inputNPSN"  />
+            <small><i> *) diisikan data dari jenjang sebelumnya</i></small>
+            </div>
+          <div class="col-md-6">
+            <label for="inputNomorIjazah" class="form-label">Nomor Seri Ijazah</label><small class="text-danger">*<i>(Tidak Wajib Diisi)</i></small>
+            <input name="Nomor Ijazah" type="tel" class="form-control" id="inputNomorIjazah"  />
+            <small><i> *) diisikan data dari jenjang sebelumnya</i></small>
+            </div>
+            <div class="col-md-6">
+            <label for="inputSKHUN" class="form-label">Nomor Seri SKHUN</label><small class="text-danger">*<i>(Tidak Wajib Diisi)</i></small>
+            <input name="SKHUN" type="tel" class="form-control" id="inputSKHUN"  />
+            <small><i> *) diisikan data dari jenjang sebelumnya</i></small>
+            </div>
+            <div class="col-md-6">
+              <label for="inputNomorUjian" class="form-label">Nomor Ujian</label><small class="text-danger">*<i>(Tidak Wajib Diisi)</i></small>
+              <input name="Nomor Ujian" type="tel" class="form-control" id="inputNomorUjian"  />
+              <small><i> *) diisikan data dari jenjang sebelumnya</i></small>
+              </div>
+             
       
           <hr class="my-4" />
 
@@ -111,6 +158,7 @@
                   <label for="inputNamaAyah" class="form-label">Nama</label><small class="text-danger">*</small>
                   <input name="Nama Ayah" type="text" class="form-control" id="inputNamaAyah" pattern="[A-Z a-z']{3,}" required title="Mohon masukkan dengan tepat" />
                 </div>
+                
                 <div class="col-md-4">
                   <label for="inputNomorNikAyah" class="form-label">NIK</label><small class="text-danger">*</small>
                   <input name="NIK Ayah" type="tel" pattern="[0-9]{16}" class="form-control" id="inputNomorNikAyah" required title="Mohon masukkan dengan tepat" />
@@ -149,6 +197,7 @@
                 </div>
               </div>
             </div>
+            
             <div class="col-lg-5 my-2">
               <h5>Ibu</h5>
               <div class="row g-3">
@@ -156,6 +205,7 @@
                   <label for="inputNamaIbu" class="form-label">Nama</label><small class="text-danger">*</small>
                   <input name="Nama Ibu" type="text" class="form-control" id="inputNamaIbu" pattern="[A-Z a-z']{3,}" required title="Mohon masukkan dengan tepat" />
                 </div>
+               
                 <div class="col-md-4">
                   <label for="inputNomorNikIbu" class="form-label">NIK</label><small class="text-danger">*</small>
                   <input name="NIK Ibu" type="tel" pattern="[0-9]{16}" class="form-control" id="inputNomorNikIbu" required title="Mohon masukkan dengan tepat" />
@@ -195,6 +245,7 @@
               </div>
             </div>
           </div>
+          
           <div class="row g-3">
             <div class="col-md-6">
               <label for="inputPenghasilan" class="form-label">Penghasilan Orang Tua</label><small class="text-danger">*</small>
@@ -214,9 +265,22 @@
               <input name="Nomor Telepon" type="tel" class="form-control" id="inputNomorTelepon" placeholder="08532622XXXX" pattern="[0-9]{10,13}" required title="Mohon masukkan dengan tepat" />
             </div>
           </div>
-
+          <div class="row g-3">
+            <label for="inputKebutuhanAyah" class="form-label">Kebutuhan Khusus Ayah</label><small class="text-danger">*</small>
+            <select name="Kebutuhan Ayah" id="inputKebutuhanAyah" class="form-select" required>
+              <option>Tidak Ada</option>
+              <option>Ada</option>
+              
+            </select> <div class="row g-3">
+              <label for="inputKebutuhanIbu" class="form-label">Kebutuhan Khusus Ibu</label><small class="text-danger">*</small>
+              <select name="Kebutuhan Ibu" id="inputKebutuhanIbu" class="form-select" required>
+                <option>Tidak Ada</option>
+                <option>Ada</option>
+                
+              </select>
           <hr class="my-4" />
           <h4>Data Alamat Rumah</h4>
+          <div class="row justify-content-around"></div>
           <div class="col-md-4">
             <label for="inputDusun" class="form-label">Dusun</label>
             <input name="Dusun" type="text" class="form-control" id="inputDusun" pattern="[A-Z a-z']{3,}" />
@@ -286,6 +350,53 @@
             </select>
           </div>
           </div>
+
+
+
+
+          <hr class="my-4" />
+          <h4>Data Lainnya</h4>
+          <div class="row justify-content-around"></div>
+          <div class="col-md-4">
+            <label for="inputBeratBadan" class="form-label">Berat Badan Siswa</label><small class="text-danger">*(Satuan Kilo Gram)</small>
+            <input name="Berat Badan" type="tel" class="form-control" id="inputBeratBadan"  />
+          </div>
+          <div class="col-md-4">
+            <label for="inputTinggiBadan" class="form-label">Tinggi Badan Siswa</label><small class="text-danger">*(Satuan Centimeter)</small>
+            <input name="Tinggi Badan" type="tel" class="form-control" id="inputDesa" />
+          </div>
+          <div class="col-4">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="inputJarakTempuh" class="form-label">Jarak Tempuh Ke Sekolah</label><small class="text-danger">*</small>
+                <input name="Jarak Tempuh" type="tel" class="form-control" id="inputJarakTempuh" required title="Mohon masukkan dengan tepat" />
+              </div>
+              <div class="col-sm-6">
+                <label for="inputSaudara" class="form-label">Jumlah Saudara Kandung</label><small class="text-danger">*</small>
+                <input name="Saudara" type="tel" class="form-control" id="inputSaudara" required title="Mohon masukkan dengan tepat" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <label for="inputEmail" class="form-label">Alamat Email</label><small class="text-danger">*(WAJIB DIISI)</small>
+            <input name="Email" type="text" class="form-control" id="inputEmail" required title="Mohon masukkan dengan tepat" />
+          </div>
+          
+          <div class="col-md-4">
+            <label for="inputKodePos" class="form-label">Kode Pos</label><small class="text-danger">*(WAJIB DIISI)</small>
+            <input name="Kode Pos" type="tel" class="form-control" id="inputKodePos" required title="Mohon masukkan dengan tepat" />
+          </div>
+          
+
+
+
+
+
+
+
+
+          
           <small class="text-center ngisor"></small>
           <small class="text-center">Dengan mengklik <b>Daftar</b>. Anda menyetujui untuk menjadi Siswa SDN 2 SIDAHARJA</small>
 
